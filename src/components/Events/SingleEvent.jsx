@@ -2,6 +2,7 @@ import React from 'react'
 import  Avatar  from '@mui/material/Avatar';
 import { AvatarGroup } from '@mui/material';
 import CachedIcon from '@mui/icons-material/Cached';
+import VideocamIcon from '@mui/icons-material/Videocam';
 
 function SingleEvent() {
   return (
@@ -26,7 +27,7 @@ function SingleEvent() {
             </AvatarGroup>
             </div>
             <div>
-                <div variant='h6'>11:00 am <span style={{'color':'GrayText'}}>(45 mins)</span></div>
+                <div style={{display:'flex',color:'white',alignItems:'center'}}> <span style={{display:'flex',alignItems:'center',padding:'3px',borderRadius:'50px',backgroundColor:'#6faeeb'}}><VideocamIcon/></span> <span style={{'color':'GrayText',marginLeft:'4px'}}>456 676 7889</span></div>
             </div>
         </div>
     </div>
