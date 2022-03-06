@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  font-family: 'Lato','Roboto', sans-serif;
+  background-color: #162B32;
+  height: 100vh;
+  color: #fff;
 }
 
 .App-logo {
@@ -35,4 +38,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bold{
+  font-weight: bolder;
 }

@@ -1,0 +1,74 @@
+.calender_home{
+    
+}
+.calender_home__header{
+    padding: 1rem 2rem;
+    
+}
+.calender_home__header__first{
+    color: #6A777C;
+}
+.calender_home__content{
+    height: 40vh;
+    /* background-image: url('/src/assets/images/bg.png'); */
+    object-fit: cover;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.calender_home__content > img{
+    width: auto;
+    height: 100%;
+}
+.calender_home__footer{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    position: absolute;
+    bottom: 0;
+}
+.calender_home__footer__main{
+    border-radius: 40px 40px 0px 0px;
+    width: 80%;
+    margin: 0 !important;
+    color: black;
+    background-color: white;
+}
+.calender_home__footer__head{
+    padding: 0px 10px;
+}
+.calender_home__footer__content{
+    padding: 5px 10px;
+    /* word-break: break-all; */
+}
+.calender_home__footer__button__container{
+    position: relative;
+    text-align: center;
+    display: flex;
+    /* height: fit-content !important; */
+    color: white;
+    height: 4rem !important;
+}
+.calender_home__footer__button{
+    position: absolute;
+    /* justify-content: center; */
+    padding: 2rem;
+    background-color:#FF6A3D;
+    bottom: 0;
+    right: 0;
+    border-radius: 200px 0px 0px 0px;
+}
+.calender_home__footer__button__container a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+    .calender_home__footer__main{
+        width: 100%;
+    }
+}

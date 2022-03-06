@@ -1,0 +1,40 @@
+.calender__header{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.calender__header__head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calender__header__head__month{
+    background-color: #2B4047;
+    margin: 0px 4px;
+    padding: 6px 12px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.calender__header__first{
+    color: #6A777C;
+}
+.calender_month{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calender_month__date{
+    padding: 16px 0px;
+    text-align: center;
+}
+.calender_month__date__main{
+    padding: 10px;
+    border-radius: 20px;
+}
+.calender_month__date__main:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
