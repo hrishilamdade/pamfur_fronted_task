@@ -3,7 +3,6 @@ import React from 'react'
 import UpcomingSingleEvent from './UpcomingSingleEvent';
 import NightsStayIcon from '@mui/icons-material/NightsStay';
 import SingleEvent from './SingleEvent';
-import AddIcon  from '@mui/icons-material/Add';
 
 function UpcomingEvents() {
   return (

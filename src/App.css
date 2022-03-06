@@ -43,3 +43,7 @@
 .bold{
   font-weight: bolder;
 }
+
+a{
+  color: white !important;
+}

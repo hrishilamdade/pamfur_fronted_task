@@ -1,6 +1,6 @@
 .events{
     overflow: scroll;
-    max-height:80vh;
+    max-height:90vh;
     position: absolute;
     bottom: 0;
     /* top:20; */
@@ -17,7 +17,7 @@
     overflow: scroll;
     max-height:70vh;
     border-radius: 20px 20px 0px 0px;
-    width: 80%;
+    width: 90%;
     box-shadow: 0px 0px 20px -4px #a8a8a8;
     padding: 20px;
     padding-top: 8px;
@@ -96,8 +96,8 @@
     position: absolute;
     display: flex;
     justify-content: flex-end;
-    bottom: 20px;
-    right: 20px;
+    bottom: 25px;
+    right: 60px;
     padding: 6px;
     font-size: larger;
     color: white;
@@ -113,7 +113,7 @@
 
 .create_new_event{
     position: absolute;
-    width: 83%;
+    width: 93%;
     font-size: 16px;
     /* height: -webkit-fill-available; */
     height: 80%;
@@ -174,5 +174,9 @@
     }
     .create_new_event{
         width: 100%;
+    }
+    .events__add_new_event{
+        bottom: 20px;
+        right: 20px;
     }
 }

@@ -11,7 +11,7 @@ function CalenderHome() {
     <div className='calender_home'>
         <Typography variant='h4' className='calender_home__header'><span className='calender_home__header__first' >Calender</span> 2021</Typography>
         <div className='calender_home__content'>
-            <img src={bg} />
+            <img src={bg} alt="background"/>
         </div>
         <div className='calender_home__footer'>
             <div className='calender_home__footer__main'>
