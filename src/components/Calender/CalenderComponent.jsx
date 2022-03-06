@@ -23,6 +23,7 @@ function CalenderComponent() {
             <Avatar alt="Remy Sharp" src="https://mui.com/static/images/avatar/1.jpg" />
         </div>
         <CalenderMonth/>
+        
         <Events/>
     </div>
   )
